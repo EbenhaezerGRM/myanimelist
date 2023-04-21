@@ -1,0 +1,23 @@
+.landingPage{
+    background: black;
+    background-size: cover;
+    height: 100vh;
+}
+
+.topAnime{
+    background: black;
+    background-size: cover;
+    height: auto    ;    
+}
+
+.topManga{
+    background: black;
+    background-size: cover;
+    height: auto;    
+}
+
+.randomPage{
+    background: black;
+    background-size: cover;
+    height: 100vh;    
+}
