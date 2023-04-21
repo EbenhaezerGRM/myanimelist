@@ -71,7 +71,7 @@ const Random = () => {
             </Col>
             <Col xs={12} sm={8} md={9} lg={10} xl={10}>
             <Card.Body>
-                <Card.Title>{randomManga.animeTitle}</Card.Title>
+                <Card.Title>{randomManga.mangaTitle}</Card.Title>
                 <Card.Text>
                 Type: {randomManga.type}
                 <br/>
