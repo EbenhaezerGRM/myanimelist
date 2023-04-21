@@ -1,0 +1,34 @@
+.intro {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+}
+
+.pageTitle{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.imageCard {
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.images {
+  height: 500px;
+}
+
