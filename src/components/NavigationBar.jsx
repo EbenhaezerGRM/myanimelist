@@ -9,7 +9,7 @@ function NavigationBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
       <Container>
-        <Navbar.Brand onClick={() => navigate('/')}>
+        <Navbar.Brand>
         <img
               alt= ""
               src= {logo}
@@ -21,8 +21,8 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto ">
-            <Nav.Link href='#top-anime'>Top Anime</Nav.Link>
-            <Nav.Link href="#top-manga">Top Manga</Nav.Link>
+            <Nav.Link onClick={() => navigate('/')}>Home</Nav.Link>
+            <Nav.Link onClick={() => navigate('/upcoming')}>Up Coming</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link onClick={() => navigate('/random')}>Random</Nav.Link>

@@ -21,3 +21,9 @@
     background-size: cover;
     height: 100vh;    
 }
+
+.upComingPage{
+    background: black;
+    background-size: cover;
+    height: auto;    
+}
