@@ -1,0 +1,18 @@
+import AnimeNavigationBar from "../components/AnimeNavigationBar"
+import NavigationBar from "../components/NavigationBar"
+import Tv from "../anime_components/Tv"
+
+const TvPage = () => {
+    return(
+        <div className="tvPage">
+            <NavigationBar/>
+            <br/>
+            <br/>
+            <br/>
+            <AnimeNavigationBar/>
+            <Tv/>
+        </div>
+    )   
+}
+
+export default TvPage
