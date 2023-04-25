@@ -26,17 +26,16 @@ function NavigationBar() {
             <Nav.Link onClick={() => navigate('/')}>Home</Nav.Link>
             <NavDropdown title="Anime" id="collasible-nav-dropdown">
               <NavDropdown.Item onClick={() => navigate('/anime')}>Anime</NavDropdown.Item>
+              <NavDropdown.Divider />
               <NavDropdown.Item onClick={() => navigate('/anime/season')}>Season</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Search</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Manga" id="collasible-nav-dropdown">
-              <NavDropdown.Item onClick={() => navigate('/')}>Something</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Something</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => navigate('/manga')}>Manga</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Search</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
