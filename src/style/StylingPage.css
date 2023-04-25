@@ -22,8 +22,20 @@
     height: 100vh;    
 }
 
+.animePage{
+    background: black;
+    background-size: cover;
+    height: 100vh;    
+}
+
 .upComingPage{
     background: black;
     background-size: cover;
-    height: auto;    
+    height: 100vh;    
+}
+
+.seasonPage{
+    background: black;
+    background-size: cover;
+    height: 100vh;    
 }
