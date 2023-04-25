@@ -1,3 +1,4 @@
+import AnimeNavigationBar from "../components/AnimeNavigationBar"
 import NavigationBar from "../components/NavigationBar"
 import UpComing from "../components/UpComing"
 
@@ -7,6 +8,8 @@ const UpComingPage = () => {
             <NavigationBar/>
             <br/>
             <br/>
+            <br/>
+            <AnimeNavigationBar/>
             <UpComing/>
         </div>
     )   
