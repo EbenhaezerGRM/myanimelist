@@ -12,7 +12,7 @@ function AnimeNavigationBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto ">
-            <Nav.Link onClick={() => navigate('/anime')}>Top Anime</Nav.Link>
+            <Nav.Link onClick={() => navigate('/anime')}>All Anime</Nav.Link>
             <Nav.Link onClick={() => navigate('/anime/airing')}>Airing</Nav.Link>
             <Nav.Link onClick={() => navigate('/anime/upcoming')}>Up Coming</Nav.Link>
             <Nav.Link onClick={() => navigate('/anime/tv')}>Tv</Nav.Link>
