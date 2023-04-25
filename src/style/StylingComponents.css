@@ -1,3 +1,15 @@
+.landingPage{
+  background: black;
+  background-size: cover;
+  height: 100vh;
+}
+
+.randomPage{
+  background: black;
+  background-size: cover;
+  height: auto;    
+}
+
 .intro {
     height: 300px;
     display: flex;
