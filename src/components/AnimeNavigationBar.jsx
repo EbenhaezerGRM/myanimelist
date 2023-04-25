@@ -12,15 +12,16 @@ function AnimeNavigationBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto ">
-            <Nav.Link>Airing</Nav.Link>
+            <Nav.Link onClick={() => navigate('/anime')}>Top Anime</Nav.Link>
+            <Nav.Link onClick={() => navigate('/anime/airing')}>Airing</Nav.Link>
             <Nav.Link onClick={() => navigate('/anime/upcoming')}>Up Coming</Nav.Link>
-            <Nav.Link>Tv</Nav.Link>
-            <Nav.Link>Movie</Nav.Link>
-            <Nav.Link>OVA</Nav.Link>
-            <Nav.Link>ONA</Nav.Link>
-            <Nav.Link>Special</Nav.Link>
-            <Nav.Link>Popular</Nav.Link>
-            <Nav.Link>Favorite</Nav.Link>
+            <Nav.Link onClick={() => navigate('/anime/tv')}>Tv</Nav.Link>
+            <Nav.Link onClick={() => navigate('/anime/movie')}>Movie</Nav.Link>
+            <Nav.Link onClick={() => navigate('/anime/ova')}>OVA</Nav.Link>
+            <Nav.Link onClick={() => navigate('/anime/ona')}>ONA</Nav.Link>
+            <Nav.Link onClick={() => navigate('/anime/special')}>Special</Nav.Link>
+            <Nav.Link onClick={() => navigate('/anime/popular')}>Popular</Nav.Link>
+            <Nav.Link onClick={() => navigate('/anime/favorite')}>Favorite</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>

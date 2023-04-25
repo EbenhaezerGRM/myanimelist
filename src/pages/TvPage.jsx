@@ -1,18 +1,18 @@
-import NavigationBar from "../components/NavigationBar"
 import AnimeNavigationBar from "../components/AnimeNavigationBar"
-import TopAnime from "../components/TopAnime"
+import NavigationBar from "../components/NavigationBar"
+import Tv from "../components/Tv"
 
-const AnimePage = () => {
+const TvPage = () => {
     return(
-        <div className="animePage">
+        <div className="tvPage">
             <NavigationBar/>
             <br/>
             <br/>
             <br/>
             <AnimeNavigationBar/>
-            <TopAnime/>
+            <Tv/>
         </div>
     )   
 }
 
-export default AnimePage
+export default TvPage

@@ -25,7 +25,7 @@ function NavigationBar() {
           <Nav className="me-auto">
             <Nav.Link onClick={() => navigate('/')}>Home</Nav.Link>
             <NavDropdown title="Anime" id="collasible-nav-dropdown">
-              <NavDropdown.Item onClick={() => navigate('/anime')}>Top Anime</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => navigate('/anime')}>Anime</NavDropdown.Item>
               <NavDropdown.Item onClick={() => navigate('/anime/season')}>Season</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Search</NavDropdown.Item>

@@ -13,7 +13,7 @@ const UpComing = () => {
   
     return (
         <Container>
-        <h1 className="pageTitle">UP COMING</h1>
+        <h1 className="pageTitle">TOP UP COMING</h1>
           {anime.map((result, index) => (
             <Card className="mt-4"key={index} style={{ backgroundColor: "white", maxWidth: "800px", margin: "0 auto" }}>
               <Row className="gx-3">
