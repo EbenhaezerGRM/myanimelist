@@ -1,7 +1,7 @@
 import NavigationBar from "../components/NavigationBar"
 import Intro from "../components/Intro"
-import TopAnime from "../components/TopAnime"
-import TopManga from "../components/TopManga"
+import TopAnime from "../anime_components/TopAnime"
+import TopManga from "../manga_components/AllManga"
 
 const Home = () => {
     return(
@@ -11,20 +11,14 @@ const Home = () => {
         <Intro/>
         </div>
 
-        <div className="topAnime">
+        <div className="topAnimePage">
         <TopAnime/>
         </div>
 
-        <div className="topManga">
+        <div className="topMangaPage">
         <TopManga/>
         </div>
-
         </>
-
-
-
-
-
     )
 }
 
