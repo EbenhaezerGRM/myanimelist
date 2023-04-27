@@ -6,9 +6,6 @@ const AnimePage = () => {
     return(
         <div className="animePage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <AnimeNavigationBar/>
             <TopAnime/>
         </div>
