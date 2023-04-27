@@ -6,7 +6,7 @@ const TopNovel = () => {
     const [anime, setManga] = useState([]);
   
     useEffect(() => {
-      axios.get(`${process.env.REACT_APP_BASE_URL}/manga/lightnovel`).then((response) => {
+      axios.get(`${process.env.REACT_APP_BASE_URL}/manga/novel`).then((response) => {
         setManga(response.data);
       });
     }, []);
