@@ -28,18 +28,12 @@ function NavigationBar() {
               <NavDropdown.Item onClick={() => navigate('/anime')}>Anime</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item onClick={() => navigate('/anime/season')}>Season</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Search</NavDropdown.Item>
             </NavDropdown>
-
-            <NavDropdown title="Manga" id="collasible-nav-dropdown">
-              <NavDropdown.Item onClick={() => navigate('/manga')}>Manga</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Search</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link onClick={() => navigate('/manga')}>Manga</Nav.Link>
+            <Nav.Link onClick={() => navigate('/random')}>Random</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link onClick={() => navigate('/random')}>Random</Nav.Link>
+            <Nav.Link onClick={() => navigate('/search')}>Search</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
