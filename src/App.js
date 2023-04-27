@@ -29,7 +29,7 @@ import ManhwaPage from "./manga_pages/ManhwaPage";
 import ManhuaPage from "./manga_pages/ManhuaPage";
 import PopularMangaPage from "./manga_pages/PopularPage";
 import FavoriteMangaPage from "./manga_pages/FavoritePage";
-import SearchPage from "./pages/SeacrhPage";
+import SearchPage from "./pages/SearchPage";
 
 const App = () => {
   return(
