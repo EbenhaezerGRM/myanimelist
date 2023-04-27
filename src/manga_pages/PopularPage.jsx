@@ -6,9 +6,6 @@ const PopularPage = () => {
     return(
         <div className="popularPage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <MangaNavigationBar/>
             <Popular/>
         </div>
