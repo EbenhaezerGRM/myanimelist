@@ -6,9 +6,6 @@ const OvaPage = () => {
     return(
         <div className="ovaPage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <AnimeNavigationBar/>
             <Ova/>
         </div>
