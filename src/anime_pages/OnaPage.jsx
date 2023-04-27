@@ -6,9 +6,6 @@ const OnaPage = () => {
     return(
         <div className="onaPage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <AnimeNavigationBar/>
             <Ona/>
         </div>
