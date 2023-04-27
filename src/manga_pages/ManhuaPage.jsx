@@ -6,9 +6,6 @@ const ManhuaPage = () => {
     return(
         <div className="manhuaPage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <MangaNavigationBar/>
             <Manhua/>
         </div>
