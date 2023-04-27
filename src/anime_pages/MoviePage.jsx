@@ -6,9 +6,6 @@ const UpComingPage = () => {
     return(
         <div className="moviePage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <AnimeNavigationBar/>
             <Movie/>
         </div>
