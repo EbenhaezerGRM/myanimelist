@@ -6,9 +6,6 @@ const TopMangaPage = () => {
     return(
         <div className="topMangaPage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <MangaNavigationBar/>
             <TopManga/>
         </div>
