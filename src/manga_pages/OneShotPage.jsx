@@ -6,9 +6,6 @@ const OneShotPage = () => {
     return(
         <div className="oneShotPage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <MangaNavigationBar/>
             <OneShot/>
         </div>
