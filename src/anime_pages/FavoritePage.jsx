@@ -6,9 +6,6 @@ const FavoritePage = () => {
     return(
         <div className="favoritePage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <AnimeNavigationBar/>
             <Favorite/>
         </div>
