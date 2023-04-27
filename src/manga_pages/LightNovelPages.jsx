@@ -6,9 +6,6 @@ const LightNovelPage = () => {
     return(
         <div className="lightNovelPage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <MangaNavigationBar/>
             <LightNovel/>
         </div>
