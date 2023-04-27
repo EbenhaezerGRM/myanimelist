@@ -7,7 +7,7 @@ function AnimeNavigationBar() {
   const navigate = useNavigate()
   return (
     <>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="border animeNavBar">
         <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
