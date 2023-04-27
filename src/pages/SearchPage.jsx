@@ -1,3 +1,4 @@
+import SearchAnime from "../anime_components/SearchAnime"
 import NavigationBar from "../components/NavigationBar"
 
 const SearchPage = () => {
@@ -7,7 +8,7 @@ const SearchPage = () => {
             <br/>
             <br/>
             <br/>
-            Search Page
+            <SearchAnime/>
         </div>
     )   
 }
