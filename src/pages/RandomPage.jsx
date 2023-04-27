@@ -5,8 +5,6 @@ const RandomPage = () => {
     return(
         <div className="randomPage">
             <NavigationBar/>
-            <br/>
-            <br/>
             <Random/>
         </div>
     )   
