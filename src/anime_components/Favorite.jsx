@@ -6,7 +6,7 @@ const Favorite = () => {
     const [anime, setAnime] = useState([]);
   
     useEffect(() => {
-      axios.get(`${process.env.REACT_APP_BASE_URL}/anime/popular`).then((response) => {
+      axios.get(`${process.env.REACT_APP_BASE_URL}/anime/favorite`).then((response) => {
         setAnime(response.data);
       });
     }, []);
