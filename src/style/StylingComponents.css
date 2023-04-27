@@ -7,7 +7,7 @@
 .randomPage{
   background: black;
   background-size: cover;
-  height: auto;    
+  height: 100vh;    
 }
 
 .intro {
@@ -44,3 +44,10 @@
   height: 500px;
 }
 
+.animeNavBar{
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
