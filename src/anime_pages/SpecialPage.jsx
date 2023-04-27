@@ -6,9 +6,6 @@ const SpecialPage = () => {
     return(
         <div className="specialPage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <AnimeNavigationBar/>
             <Special/>
         </div>
