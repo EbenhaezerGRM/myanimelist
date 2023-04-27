@@ -29,12 +29,16 @@ import ManhwaPage from "./manga_pages/ManhwaPage";
 import ManhuaPage from "./manga_pages/ManhuaPage";
 import PopularMangaPage from "./manga_pages/PopularPage";
 import FavoriteMangaPage from "./manga_pages/FavoritePage";
+import SearchPage from "./pages/SeacrhPage";
 
 const App = () => {
   return(
     <Router>
       <Routes>
         <Route path="/" element={<HomePage/>} />
+
+        <Route path="/search" element={<SearchPage/>} />
+
         <Route path="/anime" element={<AnimePage/>}/>
         <Route path="/anime/airing" element={<AiringPage/>}/>
         <Route path="/anime/upcoming" element={<UpComingPage/>}/>
