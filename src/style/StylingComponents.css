@@ -7,7 +7,13 @@
 .randomPage{
   background: black;
   background-size: cover;
-  height: 100vh;    
+  height: auto;    
+}
+
+.noPage{
+  background: black;
+  background-size: cover;
+  height: 100vh;   
 }
 
 .intro {
@@ -46,8 +52,26 @@
 
 .animeNavBar{
   display: flex;
-  width: 800px;
   justify-content: center;
-  align-items: center;
-  justify-items: center;
+  align-content: center;
+  padding-top: 70px;
+}
+
+.mangaNavBar{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 70px;
+}
+
+.notFoundText{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  color: white;
+}
+  
+.random{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
