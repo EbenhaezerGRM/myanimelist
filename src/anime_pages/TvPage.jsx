@@ -6,9 +6,6 @@ const TvPage = () => {
     return(
         <div className="tvPage">
             <NavigationBar/>
-            <br/>
-            <br/>
-            <br/>
             <AnimeNavigationBar/>
             <Tv/>
         </div>
