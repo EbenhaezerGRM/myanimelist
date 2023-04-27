@@ -3,15 +3,10 @@ import NotFound from "../components/NotFound"
 
 const NoPage = () =>{
     return(
-        <>
+        <div className="noPage">
         <NavigationBar/>
-        <br/>
-        <br/>
-        <br/>
-        <h1>
-            <NotFound/>
-        </h1>
-        </>
+        <NotFound/>
+        </div>
     )
 }
 
