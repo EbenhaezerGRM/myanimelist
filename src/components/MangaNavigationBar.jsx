@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 function MangaNavigationBar() {
   const navigate = useNavigate()
   return (
-    <>
+        <div className="mangaNavBar">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -26,7 +26,7 @@ function MangaNavigationBar() {
             </Navbar.Collapse>
         </Container>
         </Navbar>
-    </>
+        </div>
   );
 }
 
