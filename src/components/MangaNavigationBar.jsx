@@ -7,8 +7,11 @@ function MangaNavigationBar() {
   const navigate = useNavigate()
   return (
         <div className="mangaNavBar">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar className="mangaNavBarContainer" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
+        <Navbar.Brand>
+          Manga
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto ">

@@ -8,8 +8,11 @@ const navigate = useNavigate()
 
   return (
     <div className="animeNavBar">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar className="animeNavBarContainer" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
+        <Navbar.Brand>
+          Anime
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
