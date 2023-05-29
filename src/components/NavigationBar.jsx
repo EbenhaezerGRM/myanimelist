@@ -9,7 +9,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function NavigationBar() {
   const navigate = useNavigate()
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+    <Navbar className="navBar" collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
       <Container>
         <Navbar.Brand>
         <img
