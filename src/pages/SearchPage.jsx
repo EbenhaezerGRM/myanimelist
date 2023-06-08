@@ -3,7 +3,7 @@ import NavigationBar from "../components/NavigationBar"
 
 const SearchPage = () => {
     return(
-        <div className="">
+        <div className="searchPage">
             <NavigationBar/>
             <br/>
             <br/>

@@ -16,6 +16,12 @@
   height: 100vh;   
 }
 
+.searchPage{
+  background: black;
+  background-size: cover;
+  height: auto;   
+}
+
 .intro {
     height: 300px;
     display: flex;
@@ -87,4 +93,19 @@
 .random{
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.searchBar{
+  display: flex;
+  justify-content: center;
+}
+
+.searchButton{
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.searchForm{
+  border-radius: 10px;
+  margin: 5px;
 }

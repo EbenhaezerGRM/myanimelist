@@ -22,14 +22,14 @@ const SearchAnime = () => {
   };
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <input
-          placeholder={"Search anime or manga"}
+      <form className="searchBar" onSubmit={handleSubmit}>
+        <input className="searchForm"
+          placeholder={"Search anime and manga"}
           onChange={(event) => {
             setSearchText(event.target.value);
           }}
         />
-        <button>Search</button>
+        <button className="searchButton">Search</button>
       </form>
 
       <Container>
