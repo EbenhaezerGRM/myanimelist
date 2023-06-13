@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Axios from "axios";
 import { Row, Col, Container, Card } from "react-bootstrap";
 
-const SearchAnime = () => {
+const SearchManga = () => {
   const [searchText, setSearchText] = useState("");
-  const [anime, setAnime] = useState([]);
+  const [anime, setManga] = useState([]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -12,9 +12,9 @@ const SearchAnime = () => {
       alert("Please enter anime or manga title");
       return;
     }
-    Axios.get(`${process.env.REACT_APP_BASE_URL}/anime/search?q=${searchText}`).then((response) => {
+    Axios.get(`${process.env.REACT_APP_BASE_URL}/manga/search?q=${searchText}`).then((response) => {
         console.log(response.data);
-        setAnime(response.data);
+        setManga(response.data);
       })
       .catch((error) => {
         console.log(error);
@@ -64,4 +64,4 @@ const SearchAnime = () => {
   );
 }
 
-export default SearchAnime
+export default SearchManga

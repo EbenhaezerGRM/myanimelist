@@ -102,10 +102,11 @@
 
 .searchButton{
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .searchForm{
   border-radius: 10px;
   margin: 5px;
+  width: 300px;
 }
